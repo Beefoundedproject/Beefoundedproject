@@ -35,6 +35,16 @@ p {
     border: 1px solid #008000;
 }
 
+.profile-photo {
+    display: block;
+    width: min(700px, 100%);
+    height: auto;
+    margin: 0 auto 24px auto;
+    border-radius: 12px;
+    border: 2px solid #008000;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.4);
+}
+
 .donate-btn {
     display: inline-block;
     background-color: #008000;
