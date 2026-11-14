@@ -109,3 +109,49 @@ p {
 .contact-section a:hover {
     color: #ffffff;
 }
+
+.assistance-form {
+    display: grid;
+    gap: 10px;
+}
+
+.assistance-form input,
+.assistance-form select,
+.assistance-form textarea {
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #008000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+.assistance-form textarea {
+    resize: vertical;
+}
+
+.assistance-form input:focus,
+.assistance-form select:focus,
+.assistance-form textarea:focus {
+    outline: 2px solid #00ff00;
+    outline-offset: 2px;
+}
+
+.submit-btn {
+    justify-self: start;
+    padding: 10px 18px;
+    color: #000000;
+    background-color: #008000;
+    border: 1px solid #008000;
+    border-radius: 4px;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    color: #ffffff;
+    background-color: #051405;
+}
